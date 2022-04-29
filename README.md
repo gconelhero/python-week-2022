@@ -11,49 +11,70 @@ e módulos, porém a maioria dos arquivos encontra-se vazio.
 A apartir deste template você poderá acompanhar as lives  
 da Python week e programar junto com o Bruno e o Jeferson.
 
-## Obtendo seu repositório
+## Requisitos (mais informações no arquivo requirements.txt)
+
+Testado com Python 3.8.10
+***Não testado em outras versões***
+
+Git
+```
+# Ambiente Linux (Debian/Ubuntu)
+sudo apt-get install git
+
+# Ambiente Windows (Siga as instruções do link abaixo)
+https://git-scm.com/download/win
+```
+
+uvicorn **OPCIONAL!**
+
+## Obtendo repositório e o poetry!
 
 ```
 git clone https://github.com/gconelhero/python-week-2022
 ```
-## Requisitos
 
 ```
 cd python-week-2022
+# Ambiente Linux (Debian/Ubuntu)
 python3 -m pip install poetry
-```
-
-`Em outros ambientes pode instalar com`
-
-```
+# Ambiente Windows
 pip install --user poetry
+# ou
+python.exe -m pip install poetry
 ```
 
-## Instalando o ambiente
+## Instalando o ambiente e requisitos!
 
 ```
 poetry shell
 python3 -m pip install -r requirements.txt
 ```
 
-Executando
+# Executando
 
 ```
-beerlog --help
+python3 -m beerlog --help
+python3 -m beerlog list # Para listar a tabela com os valores
 # ou
-python -m beerlog --help
+poetry beerlog --help
+poetry beerlog list
 ```
-Utilizando o unicorn:
+
+# Utilizando o uvicorn:
+
 ```
 python3 -m pip install uvicorn
 uvicorn beerlog.api:api
 ```
 
 Exemplo de como adicionar uma cerveja pelo terminal:
+
 ```
-beerlog add "Itaipava" "Pilsen" --flavor=4 --image=3 --cost=6
+python3 -m beerlog add "Itaipava" "Pilsen" --flavor=4 --image=3 --cost=6
+poetry run beerlog add "Itaipava" "Pilsen" --flavor=4 --image=3 --cost=6
 ```
 Exemplo de como adicionar uma cerveja pelo browser com uvicorn:
+
 ```
 localhost:8000/docs
 ```
