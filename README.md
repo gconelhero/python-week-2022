@@ -14,6 +14,7 @@ Testado com Python 3.8.10
 ***Não testado em outras versões***
 
 Git
+### Instalando o Git
 ```
 # Ambiente Linux (Debian/Ubuntu)
 sudo apt-get install git
