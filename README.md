@@ -4,12 +4,9 @@ Template Para a Python Week 2022 - 25 a 29 de Abril na Linux Tips
 
 ## Instruções
 
-Este repositório é um template de um projeto Python minimo  
-O programa se chama `beerlog` e está organizado com pastas
-e módulos, porém a maioria dos arquivos encontra-se vazio.
-
-A apartir deste template você poderá acompanhar as lives  
-da Python week e programar junto com o Bruno e o Jeferson.
+Este repositório é um template de um projeto Python mínimo  
+O programa se chama `beerlog` e está organizado por pastas
+e módulos.
 
 ## Requisitos (mais informações no arquivo requirements.txt)
 
@@ -32,18 +29,18 @@ uvicorn **OPCIONAL!**
 ```
 git clone https://github.com/gconelhero/python-week-2022
 ```
-# Ambiente Linux (Debian/Ubuntu)
+## Ambiente Linux (Debian/Ubuntu)
 ```
 cd python-week-2022
 python3 -m pip install poetry
 ```
 
-# Ambiente Windows
+## Ambiente Windows
 ```
 cd python-week-2022
 pip install --user poetry
 ```
-# ou
+### ou
 ```
 python.exe -m pip install poetry
 ```
