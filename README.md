@@ -32,7 +32,6 @@ pip install --user poetry
 ## Instalando o ambiente
 
 ```
-poetry install
 poetry shell
 python3 -m pip install -r requirements.txt
 ```

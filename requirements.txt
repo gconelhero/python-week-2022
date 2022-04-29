@@ -6,4 +6,3 @@ dynaconf==3.1.8
 black==22.3.0
 flake8==4.0.1
 requests==2.27.1
-poetry==1.5.1
