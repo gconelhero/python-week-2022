@@ -55,7 +55,7 @@ poetry shell
 python3 -m pip install -r requirements.txt
 ```
 
-# Executando
+## Executando
 
 ```
 python3 -m beerlog --help
@@ -65,7 +65,7 @@ poetry beerlog --help
 poetry beerlog list
 ```
 
-# Utilizando o uvicorn:
+## Utilizando o uvicorn:
 
 ```
 python3 -m pip install uvicorn
