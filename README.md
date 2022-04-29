@@ -34,10 +34,15 @@ git clone https://github.com/gconelhero/python-week-2022
 ```
 
 ```
-cd python-week-2022
 # Ambiente Linux (Debian/Ubuntu)
+
+cd python-week-2022
 python3 -m pip install poetry
+```
+
+```
 # Ambiente Windows
+cd python-week-2022
 pip install --user poetry
 # ou
 python.exe -m pip install poetry
